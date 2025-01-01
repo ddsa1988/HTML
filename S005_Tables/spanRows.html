@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Span rows</title>
+        <style>
+            table,
+            th,
+            td {
+                border-style: solid;
+                border-width: 1px;
+            }
+            th {
+                width: 100px;
+            }
+            td {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>ABC</th>
+                    <th>BBC</th>
+                    <th>CNN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>6pm - 7pm</th>
+                    <td rowspan="2">Movie</td>
+                    <td>Comedy</td>
+                    <td>News</td>
+                </tr>
+                <tr>
+                    <th>7pm - 8pm</th>
+                    <td>Sport</td>
+                    <td>Current Affairs</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
